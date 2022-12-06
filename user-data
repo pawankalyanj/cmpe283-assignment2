@@ -1,0 +1,5 @@
+#cloud-config
+    password: newpass #new password here
+    chpasswd: { expire: False }
+    ssh_pwauth: True
+    EOF
